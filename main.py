@@ -13,4 +13,4 @@ if search_query:
     st.write(f"**Film recherché** : {search_query}")
     # Bouton pour changer de page
     if st.button("Voir les recommandations 🚀"):
-        st.switch_page("pages\page_2_recommendation.py")
+        st.switch_page("pages/page_2_recommendation.py")

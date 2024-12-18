@@ -51,7 +51,7 @@ if 'search_query' in st.session_state:
                         # Bouton pour aller à la Page 3
                         if st.button(f"Voir {row['title']}", key=row['title']):
                             st.session_state['selected_film'] = row.to_dict()  # Sauvegarder les détails
-                            st.switch_page("pages\page_3_details.py")
+                            st.switch_page("pages/page_3_details.py")
 
   # Rediriger vers Page 3
         else:
